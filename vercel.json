@@ -8,5 +8,6 @@
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "index.js" }
-  ]
+  ],
+  "public": "public"
 }
