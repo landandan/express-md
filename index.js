@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json());
 //  指定静态文件目录，例如 public 文件夹
 app.use(express.static("public"));
-app.use(express.static("uploads"));
-app.use(express.static("markdown"));
+// app.use(express.static("uploads"));
+// app.use(express.static("markdown"));
 
 // 配置 multer 存储引擎
 const storage = multer.diskStorage({
