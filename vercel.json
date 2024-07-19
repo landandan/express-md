@@ -8,6 +8,6 @@
   ],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "index.js" },
-    { "source": "/(.*)", "destination": "index.html" }
+    { "source": "/(.*)", "destination": "./public/index.html" }
   ]
 }
