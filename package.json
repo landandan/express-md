@@ -4,7 +4,8 @@
     "description": "A simple markdown rendering middleware for Express.js",
     "main": "index.js",
     "scripts": {
-        "dev": "node index.js"
+        "dev": "node index.js",
+        "build": "node build.js"
     },
     "dependencies": {
         "express": "^4.19.2",
