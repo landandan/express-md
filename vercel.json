@@ -7,9 +7,6 @@
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "public" },
-    { "source": "/api/(.*)", "destination": "index.js" },
-    { "source": "/markdown/(.*)", "destination": "index.js" },
-    { "source": "/uploads/(.*)", "destination": "index.js" }
+    { "source": "/(.*)", "destination": "index.js" }
   ]
 }
