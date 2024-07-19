@@ -8,6 +8,6 @@
   ],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "index.js" },
-    { "source": "/(.*)", "status": 200, "use": "@vercel/static" }
+    { "source": "/(.*)", "destination": "index.html" }
   ]
 }
