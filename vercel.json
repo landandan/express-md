@@ -3,11 +3,11 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@now/node"
+      "use": "@vercel/node"
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "index.js" }
-  ],
-  "public": "public"
+    { "source": "/api/(.*)", "destination": "index.js" },
+    { "source": "/(.*)", "status": 200, "use": "@vercel/static" }
+  ]
 }
